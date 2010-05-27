@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/layout_main">
+
+	<TextView android:id="@+id/TextView02" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Add a Trac"
+		android:textSize="18sp" android:textStyle="bold" android:gravity="center_horizontal"></TextView>
+	<TextView android:id="@+id/TextView01" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Website URL"></TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/hostname_edit"
+		android:text="https://"></EditText>
+
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Path to the xmlrpc holder"></TextView>
+	<EditText android:id="@+id/path_edit" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="/trac/login/xmlrpc">
+	</EditText>
+	
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Request"></TextView>
+	<EditText android:id="@+id/filter_edit" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="owner=...&amp;status!=closed">
+	</EditText>
+
+	<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Login"></TextView>
+	<EditText android:text="" android:id="@+id/login_edit"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></EditText>
+	<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Password"></TextView>
+	<EditText android:text="" android:id="@+id/password_edit"
+		android:password="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"></EditText>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="right"
+		android:layout_gravity="right" android:text="Save this trac"
+		android:id="@+id/validate_add_trac"></Button>
+</LinearLayout>

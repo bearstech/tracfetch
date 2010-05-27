@@ -1,0 +1,41 @@
+<!-- <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:padding="5dp">
+ 
+	<TableRow android:padding="5dp">
+	<LinearLayout android:orientation="vertical">
+	
+		<TextView android:id="@+id/ticket_item_id"
+			android:textSize="16sp"
+			android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+		</TextView>
+ 		<TextView android:id="@+id/ticket_item_summary"
+ 			android:textSize="16sp"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent">
+		</TextView>
+		
+	</LinearLayout>
+	</TableRow>
+</TableLayout> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="5dp">
+
+	<TextView android:id="@+id/ticket_item_id"
+		android:textSize="16sp"
+		android:textStyle="bold"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+	</TextView>
+	<TextView android:id="@+id/ticket_item_summary"
+		android:textSize="16sp"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent">
+	</TextView>
+	
+</LinearLayout>
